@@ -2,7 +2,7 @@ var express = require('express');
 var zookeeper = require('node-zookeeper-client');
 var httpProxy = require('http-proxy');
 
-var PORT = 1028;
+var PORT = 1025;
 var CONNECTION_STRING = '127.0.0.1:2181';
 var REGISTRY_ROOT = '/registry';
 var cache = {};
