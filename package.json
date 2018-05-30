@@ -1,6 +1,6 @@
 {
   "name": "msa-api-gateway",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "start": "node ./bin/www"
@@ -13,5 +13,21 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
-  }
+  },
+  "description": "The service API gateway, which uniformly receives external requests, performs load balancing to invoke the back-end service and returns the results.",
+  "main": "eureka_app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microcmpt/msa-api-gateway.git"
+  },
+  "keywords": [
+    "api-gateway"
+  ],
+  "author": "Shen Xia ping",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/microcmpt/msa-api-gateway/issues"
+  },
+  "homepage": "https://microcmpt.github.io"
 }
