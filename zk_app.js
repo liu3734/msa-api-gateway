@@ -76,6 +76,7 @@ app.all('*', function (req, res) {
                     res.end();
                     return;
                 }
+                applicationAddress = applicationAddress.toString('utf8').split(':=')[1];
                 console.log('applicationAddress: %s', applicationAddress);
                 if (!applicationAddress) {
                     console.log('application address is not exist');
